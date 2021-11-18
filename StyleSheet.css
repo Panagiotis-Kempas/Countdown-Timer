@@ -1,0 +1,53 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+
+
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background-image:url(background-g8858ed7e5_1920.jpg);
+    background-size:cover;
+    background-position:center center;
+    min-height:100vh;
+    display:flex;
+    flex-direction:column;
+    align-items:center;    
+    margin:0;
+    font-family:"Poopins",sans-serif;
+
+}
+
+h1{
+    font-size:4rem;
+   margin-top:5rem;
+    font-weight:normal;
+
+}
+
+
+.countdown-container{
+    display:flex;
+
+}
+
+.big-text{
+    font-size:6rem;
+    line-height:1;
+    margin:0 2rem;
+    font-weight:bold;
+
+
+}
+
+.countdown-el {
+    text-align:center;
+
+}
+
+.countdown-el span{
+    font-size:1.5rem;
+
+}
