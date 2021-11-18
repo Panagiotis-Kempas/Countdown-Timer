@@ -3,14 +3,6 @@ const hoursEl = document.getElementById('hours')
 const minsEl = document.getElementById('minutes')
 const secondsEl = document.getElementById('seconds')
 
-
-
-
-
-
-
-
-
 const newYears = '1 Jan 2022';
 
 function CountDown() {
@@ -29,15 +21,10 @@ function CountDown() {
     minsEl.innerHTML = formatTime(minutes);
     secondsEl.innerHTML = formatTime(seconds);
     
-
 }
 function formatTime(time) {
     return time < 10 ? (`0${time}`) : time;
 }
-
-
-
-
 
 //Initial call
 CountDown();
